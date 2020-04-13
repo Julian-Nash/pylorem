@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pylorem",
-    version="1.1",
+    version="1.2",
     packages=setuptools.find_packages(),
     author="Julian Nash",
     author_email="julianjamesnash@gmail.com",
@@ -14,6 +14,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     keywords="lorem ipsum placeholder dummy text generator",
     url="https://github.com/Julian-Nash/pylorem",
+    include_package_data=True,
     project_urls={
         "Bug Tracker": "https://github.com/Julian-Nash/pylorem",
         "Documentation": "https://github.com/Julian-Nash/pylorem",
